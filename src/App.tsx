@@ -25,23 +25,8 @@ const App = () => {
 
   return (
     <div className="container">
-      <nav>
-        <Link to="/">Home</Link>
-        {/* Add more links here if you want multiple pages later */}
-      </nav>
-
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <>
-              <CryptoForm ciphers={ciphers} setOutput={setOutput} />
-              <CryptoResult output={output} />
-            </>
-          }
-        />
-        {/* You can add more <Route> components here later */}
-      </Routes>
+      <CryptoForm ciphers={ciphers} setOutput={setOutput} />
+      <CryptoResult output={output} />
     </div>
   );
 };
