@@ -8,6 +8,9 @@ Welcome to CryptoPlayground, a web-based application for exploring and experimen
 - **Hill Cipher**: Matrix-based encryption supporting 2x2 key matrices.
 - Interactive user interface for selecting ciphers, inputting text, and viewing results.
 
+## Live Demo
+Visit https://zuru07.github.io/CryptoPlayground/
+
 ## How to Use
 1. Visit the live demo link above.
 2. Select a cipher from the dropdown menu (e.g., Affine).
