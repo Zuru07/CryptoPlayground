@@ -1,6 +1,6 @@
 # CryptoPlayground
 
-Welcome to CryptoPlayground, a web-based application for exploring and experimenting with various cryptographic algorithms. This project, developed by Suraj, showcases implementations of ciphers like Affine, Caesar, and Hill, built using React and TypeScript with Vite. The live demo is hosted on GitHub Pages, allowing users to interact with the ciphers directly in the browser.
+Welcome to CryptoPlayground, a web-based application for exploring and experimenting with various cryptographic algorithms. This project, showcases implementations of ciphers like Affine, Caesar, and Hill, built using React and TypeScript with Vite. The live demo is hosted on GitHub Pages, allowing users to interact with the ciphers directly in the browser.
 
 ## Features
 - **Affine Cipher**: Encrypt or decrypt text using customizable keys (e.g., a=5, b=8).
