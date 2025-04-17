@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Routes, Route, Link } from 'react-router-dom';
 import CryptoForm from './components/CryptoForm';
 import CryptoResult from './components/CryptoResult';
 import { Cipher } from './types';
@@ -24,8 +25,23 @@ const App = () => {
 
   return (
     <div className="container">
-      <CryptoForm ciphers={ciphers} setOutput={setOutput} />
-      <CryptoResult output={output} />
+      <nav>
+        <Link to="/">Home</Link>
+        {/* Add more links here if you want multiple pages later */}
+      </nav>
+
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <CryptoForm ciphers={ciphers} setOutput={setOutput} />
+              <CryptoResult output={output} />
+            </>
+          }
+        />
+        {/* You can add more <Route> components here later */}
+      </Routes>
     </div>
   );
 };
